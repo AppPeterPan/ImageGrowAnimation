@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64924531856BE7500FA4766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64924521856BE7500FA4766 /* Foundation.framework */; };
+		A64924551856BE7500FA4766 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64924541856BE7500FA4766 /* CoreGraphics.framework */; };
+		A64924571856BE7500FA4766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64924561856BE7500FA4766 /* UIKit.framework */; };
+		A649245D1856BE7500FA4766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A649245B1856BE7500FA4766 /* InfoPlist.strings */; };
+		A649245F1856BE7500FA4766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A649245E1856BE7500FA4766 /* main.m */; };
+		A64924631856BE7500FA4766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64924621856BE7500FA4766 /* AppDelegate.m */; };
+		A64924661856BE7500FA4766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64924641856BE7500FA4766 /* Main.storyboard */; };
+		A64924691856BE7500FA4766 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64924681856BE7500FA4766 /* ViewController.m */; };
+		A649246B1856BE7500FA4766 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A649246A1856BE7500FA4766 /* Images.xcassets */; };
+		A64924721856BE7500FA4766 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64924711856BE7500FA4766 /* XCTest.framework */; };
+		A64924731856BE7500FA4766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64924521856BE7500FA4766 /* Foundation.framework */; };
+		A64924741856BE7500FA4766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64924561856BE7500FA4766 /* UIKit.framework */; };
+		A649247C1856BE7500FA4766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A649247A1856BE7500FA4766 /* InfoPlist.strings */; };
+		A649247E1856BE7500FA4766 /* ImageGrowAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A649247D1856BE7500FA4766 /* ImageGrowAnimationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A64924751856BE7500FA4766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64924471856BE7500FA4766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A649244E1856BE7500FA4766;
+			remoteInfo = ImageGrowAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A649244F1856BE7500FA4766 /* ImageGrowAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGrowAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64924521856BE7500FA4766 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A64924541856BE7500FA4766 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A64924561856BE7500FA4766 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A649245A1856BE7500FA4766 /* ImageGrowAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageGrowAnimation-Info.plist"; sourceTree = "<group>"; };
+		A649245C1856BE7500FA4766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A649245E1856BE7500FA4766 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A64924601856BE7500FA4766 /* ImageGrowAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageGrowAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		A64924611856BE7500FA4766 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A64924621856BE7500FA4766 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A64924651856BE7500FA4766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A64924671856BE7500FA4766 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A64924681856BE7500FA4766 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A649246A1856BE7500FA4766 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A64924701856BE7500FA4766 /* ImageGrowAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGrowAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64924711856BE7500FA4766 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A64924791856BE7500FA4766 /* ImageGrowAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageGrowAnimationTests-Info.plist"; sourceTree = "<group>"; };
+		A649247B1856BE7500FA4766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A649247D1856BE7500FA4766 /* ImageGrowAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGrowAnimationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A649244C1856BE7500FA4766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64924551856BE7500FA4766 /* CoreGraphics.framework in Frameworks */,
+				A64924571856BE7500FA4766 /* UIKit.framework in Frameworks */,
+				A64924531856BE7500FA4766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A649246D1856BE7500FA4766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64924721856BE7500FA4766 /* XCTest.framework in Frameworks */,
+				A64924741856BE7500FA4766 /* UIKit.framework in Frameworks */,
+				A64924731856BE7500FA4766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64924461856BE7500FA4766 = {
+			isa = PBXGroup;
+			children = (
+				A64924581856BE7500FA4766 /* ImageGrowAnimation */,
+				A64924771856BE7500FA4766 /* ImageGrowAnimationTests */,
+				A64924511856BE7500FA4766 /* Frameworks */,
+				A64924501856BE7500FA4766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A64924501856BE7500FA4766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A649244F1856BE7500FA4766 /* ImageGrowAnimation.app */,
+				A64924701856BE7500FA4766 /* ImageGrowAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64924511856BE7500FA4766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A64924521856BE7500FA4766 /* Foundation.framework */,
+				A64924541856BE7500FA4766 /* CoreGraphics.framework */,
+				A64924561856BE7500FA4766 /* UIKit.framework */,
+				A64924711856BE7500FA4766 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A64924581856BE7500FA4766 /* ImageGrowAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A64924611856BE7500FA4766 /* AppDelegate.h */,
+				A64924621856BE7500FA4766 /* AppDelegate.m */,
+				A64924641856BE7500FA4766 /* Main.storyboard */,
+				A64924671856BE7500FA4766 /* ViewController.h */,
+				A64924681856BE7500FA4766 /* ViewController.m */,
+				A649246A1856BE7500FA4766 /* Images.xcassets */,
+				A64924591856BE7500FA4766 /* Supporting Files */,
+			);
+			path = ImageGrowAnimation;
+			sourceTree = "<group>";
+		};
+		A64924591856BE7500FA4766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A649245A1856BE7500FA4766 /* ImageGrowAnimation-Info.plist */,
+				A649245B1856BE7500FA4766 /* InfoPlist.strings */,
+				A649245E1856BE7500FA4766 /* main.m */,
+				A64924601856BE7500FA4766 /* ImageGrowAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A64924771856BE7500FA4766 /* ImageGrowAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A649247D1856BE7500FA4766 /* ImageGrowAnimationTests.m */,
+				A64924781856BE7500FA4766 /* Supporting Files */,
+			);
+			path = ImageGrowAnimationTests;
+			sourceTree = "<group>";
+		};
+		A64924781856BE7500FA4766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A64924791856BE7500FA4766 /* ImageGrowAnimationTests-Info.plist */,
+				A649247A1856BE7500FA4766 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A649244E1856BE7500FA4766 /* ImageGrowAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64924811856BE7500FA4766 /* Build configuration list for PBXNativeTarget "ImageGrowAnimation" */;
+			buildPhases = (
+				A649244B1856BE7500FA4766 /* Sources */,
+				A649244C1856BE7500FA4766 /* Frameworks */,
+				A649244D1856BE7500FA4766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageGrowAnimation;
+			productName = ImageGrowAnimation;
+			productReference = A649244F1856BE7500FA4766 /* ImageGrowAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A649246F1856BE7500FA4766 /* ImageGrowAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64924841856BE7500FA4766 /* Build configuration list for PBXNativeTarget "ImageGrowAnimationTests" */;
+			buildPhases = (
+				A649246C1856BE7500FA4766 /* Sources */,
+				A649246D1856BE7500FA4766 /* Frameworks */,
+				A649246E1856BE7500FA4766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A64924761856BE7500FA4766 /* PBXTargetDependency */,
+			);
+			name = ImageGrowAnimationTests;
+			productName = ImageGrowAnimationTests;
+			productReference = A64924701856BE7500FA4766 /* ImageGrowAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64924471856BE7500FA4766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Peter Pan";
+				TargetAttributes = {
+					A649246F1856BE7500FA4766 = {
+						TestTargetID = A649244E1856BE7500FA4766;
+					};
+				};
+			};
+			buildConfigurationList = A649244A1856BE7500FA4766 /* Build configuration list for PBXProject "ImageGrowAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A64924461856BE7500FA4766;
+			productRefGroup = A64924501856BE7500FA4766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A649244E1856BE7500FA4766 /* ImageGrowAnimation */,
+				A649246F1856BE7500FA4766 /* ImageGrowAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A649244D1856BE7500FA4766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A649246B1856BE7500FA4766 /* Images.xcassets in Resources */,
+				A649245D1856BE7500FA4766 /* InfoPlist.strings in Resources */,
+				A64924661856BE7500FA4766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A649246E1856BE7500FA4766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A649247C1856BE7500FA4766 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A649244B1856BE7500FA4766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64924691856BE7500FA4766 /* ViewController.m in Sources */,
+				A64924631856BE7500FA4766 /* AppDelegate.m in Sources */,
+				A649245F1856BE7500FA4766 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A649246C1856BE7500FA4766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A649247E1856BE7500FA4766 /* ImageGrowAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A64924761856BE7500FA4766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A649244E1856BE7500FA4766 /* ImageGrowAnimation */;
+			targetProxy = A64924751856BE7500FA4766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A649245B1856BE7500FA4766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A649245C1856BE7500FA4766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A64924641856BE7500FA4766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64924651856BE7500FA4766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A649247A1856BE7500FA4766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A649247B1856BE7500FA4766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A649247F1856BE7500FA4766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A64924801856BE7500FA4766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64924821856BE7500FA4766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageGrowAnimation/ImageGrowAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ImageGrowAnimation/ImageGrowAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A64924831856BE7500FA4766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageGrowAnimation/ImageGrowAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ImageGrowAnimation/ImageGrowAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A64924851856BE7500FA4766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageGrowAnimation.app/ImageGrowAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageGrowAnimation/ImageGrowAnimation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageGrowAnimationTests/ImageGrowAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A64924861856BE7500FA4766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageGrowAnimation.app/ImageGrowAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageGrowAnimation/ImageGrowAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ImageGrowAnimationTests/ImageGrowAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A649244A1856BE7500FA4766 /* Build configuration list for PBXProject "ImageGrowAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A649247F1856BE7500FA4766 /* Debug */,
+				A64924801856BE7500FA4766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64924811856BE7500FA4766 /* Build configuration list for PBXNativeTarget "ImageGrowAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64924821856BE7500FA4766 /* Debug */,
+				A64924831856BE7500FA4766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A64924841856BE7500FA4766 /* Build configuration list for PBXNativeTarget "ImageGrowAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64924851856BE7500FA4766 /* Debug */,
+				A64924861856BE7500FA4766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64924471856BE7500FA4766 /* Project object */;
+}
