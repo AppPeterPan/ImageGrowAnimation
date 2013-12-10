@@ -21,6 +21,7 @@
 		A64924741856BE7500FA4766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64924561856BE7500FA4766 /* UIKit.framework */; };
 		A649247C1856BE7500FA4766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A649247A1856BE7500FA4766 /* InfoPlist.strings */; };
 		A649247E1856BE7500FA4766 /* ImageGrowAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A649247D1856BE7500FA4766 /* ImageGrowAnimationTests.m */; };
+		A64924881856BE8D00FA4766 /* RainbowMeter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A64924871856BE8D00FA4766 /* RainbowMeter@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A64924791856BE7500FA4766 /* ImageGrowAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageGrowAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		A649247B1856BE7500FA4766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A649247D1856BE7500FA4766 /* ImageGrowAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGrowAnimationTests.m; sourceTree = "<group>"; };
+		A64924871856BE8D00FA4766 /* RainbowMeter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RainbowMeter@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		A64924591856BE7500FA4766 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A64924871856BE8D00FA4766 /* RainbowMeter@2x.png */,
 				A649245A1856BE7500FA4766 /* ImageGrowAnimation-Info.plist */,
 				A649245B1856BE7500FA4766 /* InfoPlist.strings */,
 				A649245E1856BE7500FA4766 /* main.m */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A649246B1856BE7500FA4766 /* Images.xcassets in Resources */,
+				A64924881856BE8D00FA4766 /* RainbowMeter@2x.png in Resources */,
 				A649245D1856BE7500FA4766 /* InfoPlist.strings in Resources */,
 				A64924661856BE7500FA4766 /* Main.storyboard in Resources */,
 			);

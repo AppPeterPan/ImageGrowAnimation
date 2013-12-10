@@ -9,15 +9,38 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+{
+    UIImageView *rainBowBarImageView;
+    int bottomY;
+}
 @end
 
 @implementation ViewController
+
+- (IBAction)growButtonPressed:(id)sender {
+    
+    [UIView animateWithDuration:1 animations:^{
+        rainBowBarImageView.frame = CGRectMake(100, bottomY-160, 50, 160);
+
+    }];
+
+}
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    bottomY = 250;
+    
+    rainBowBarImageView = [[UIImageView alloc] initWithImage:
+						   [UIImage imageNamed:@"RainbowMeter.png"]];
+	rainBowBarImageView.clipsToBounds = YES;
+	rainBowBarImageView.contentMode = UIViewContentModeBottom;
+	rainBowBarImageView.frame = CGRectMake(100, bottomY-50, 50, 50);
+    
+    [self.view addSubview:rainBowBarImageView];
 }
 
 - (void)didReceiveMemoryWarning
